@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-
+st.markdown("<h1 style='text-align: center;'>Code X</h1>", unsafe_allow_html=True)
 # Custom implementation of k-Means algorithm
 def kmeans(X, num_clusters, max_iter=100):
     np.random.seed(0)
